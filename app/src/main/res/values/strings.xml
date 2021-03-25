@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="AdBut">Добавить элемент</string>
+    <string name="NumbEx">100</string>
+</resources>
