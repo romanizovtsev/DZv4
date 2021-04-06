@@ -22,7 +22,6 @@ public class ListFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.listfragment,container,false);
         RecyclerView recyclerView= view.findViewById(R.id.numb_rec);
-       setRetainInstance(true);
             if(getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
                 recyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));
                 orient1=0;

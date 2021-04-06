@@ -13,7 +13,6 @@ public class Fragment2 extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment2, container, false);
-        setRetainInstance(true);
         TextView Numb = view.findViewById(R.id.Number);
         Bundle bundle = this.getArguments();
         if (bundle != null) {
